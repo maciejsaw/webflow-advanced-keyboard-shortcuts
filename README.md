@@ -27,8 +27,11 @@ Advanced keyboard shortcuts for Webflow.io interface
 
 setTimeout(function() {
     $(document).bind('keydown', 'shift+alt', function() {
-        $('.token.add').click();
-        $('.need-class').click();
+        $('[data-key="styleTab"]').click();
+        setTimeout(function() {
+            $('.token.add').click();
+            $('.need-class').click();    
+        }, 100); //slight delay to make sure that the panel is rendered
     });
 }, 4000); //4 seconds timeout because we wait for the script the first script to load
 
