@@ -6,7 +6,7 @@ Advanced keyboard shortcuts for Webflow.io interface
 ## Available shortcuts
 * shift + alt --> It will focus "Class" input in top right
 
-## How to?
+## How to setup?
 
 ![gif](https://github.com/maciejsaw/webflow-advanced-keyboard-shortcuts/raw/master/keyboard%20webflow.gif)
 
@@ -35,6 +35,16 @@ setTimeout(function() {
 ```
 
 4) Click shift+alt to focus on "Class" input 
+
+5) You need to do this each time you reload the page Webflow designer interface, but you don't need to remember the code. You can simply hit the arrow up to reuse the last command. 
+
+6) TIP: You can also save this as a snippet in Chrome "Sources". Right click in the Snippets tab and choose "New"
+
+## How to use shortcuts?
+
+Simply click shift+alt to focus on the class. 
+Note how useful this is when adding new elements.
+
 
 ## Additional info
 * This snippet loads the jQuery Hotkeys library 
