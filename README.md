@@ -52,6 +52,6 @@ Note how useful this is when adding new elements.
 
 
 ## Additional info
-* This snippet loads the jQuery Hotkeys library 
+* This snippet loads the [jQuery Hotkeys](https://github.com/jeresig/jquery.hotkeys) library 
 * Then it binds the shift+alt to click the "Class" input
 * In future we can add more keyboard shortcuts
