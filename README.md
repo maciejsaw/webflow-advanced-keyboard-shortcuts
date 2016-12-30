@@ -45,6 +45,8 @@ setTimeout(function() {
 Simply click shift+alt to focus on the class. 
 Note how useful this is when adding new elements.
 
+![gif2](https://raw.githubusercontent.com/maciejsaw/webflow-advanced-keyboard-shortcuts/master/keyboard%20webflow2.gif)
+
 
 ## Additional info
 * This snippet loads the jQuery Hotkeys library 
