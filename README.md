@@ -7,6 +7,9 @@ Advanced keyboard shortcuts for Webflow.io interface
 * shift + alt --> It will focus "Class" input in top right
 
 ## How to?
+
+![gif](https://github.com/maciejsaw/webflow-advanced-keyboard-shortcuts/raw/master/keyboard%20webflow.gif)
+
 1) Open your browser developer tools
 
 2) Go to the console tab
