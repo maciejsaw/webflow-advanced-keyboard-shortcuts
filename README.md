@@ -1,9 +1,14 @@
 # webflow-advanced-keyboard-shortcuts
 Advanced keyboard shortcuts for Webflow.io interface
 
+## Available shortcuts
+* shift + alt --> It will focus "Class" input in top right
+
 ## How to?
 1) Open your browser developer tools
+
 2) Go to the console tab
+
 3) Paste the following code into the console
 
 ```javascript
@@ -23,6 +28,7 @@ setTimeout(function() {
 }, 4000); //4 seconds timeout because we wait for the script the first script to load
 
 ```
+
 4) Click shift+alt to focus on "Class" input 
 
 ## Additional info
