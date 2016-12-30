@@ -2,8 +2,9 @@
 Advanced keyboard shortcuts for Webflow.io interface
 
 ## How to?
-1. Open your browser developer tools
-2. Pate the following code
+1) Open your browser developer tools
+2) Go to the console tab
+3) Paste the following code into the console
 
 ```javascript
 (function() {
@@ -22,6 +23,7 @@ setTimeout(function() {
 }, 4000); //4 seconds timeout because we wait for the script the first script to load
 
 ```
+4) Click shift+alt to focus on "Class" input 
 
 ## Additional info
 * This snippet loads the jQuery Hotkeys library 
