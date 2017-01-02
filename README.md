@@ -5,6 +5,7 @@ Advanced keyboard shortcuts for Webflow.io interface
 
 ## Available shortcuts
 * Shift + Alt --> It will focus "Class" input in top right
+* Text editing with "Enter" key and "Esc" --> When a text element is selected, it will enter text editing mode. Use "Esc" to leave  
 
 ## How to setup?
 
@@ -17,15 +18,35 @@ Advanced keyboard shortcuts for Webflow.io interface
 3) Paste the following code into the console
 
 ```javascript
-//load the jQuery hotkeys script and bind keys
-$.getScript("https://cdn.rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js", function() {
-    $(document).bind('keydown', 'shift+alt', function() {
+//After clicking Esc on keyboard, the iframe is in focus so we need to bind the keys 
+//for both "documents": parent document and site iframe. 
+var $iframe = $(document).find('#site-iframe').contents();
+var $iframeDocument = $($iframe[0]); //this gets the document object of the iframe
+var $bothDocuments = $(document).add($iframeDocument);
+
+function bindKeydownForClassInput() {
+    $bothDocuments.bind('keydown', 'shift+alt', function() {
         $('.style-tab').click();
         setTimeout(function() {
             $('.token.add, .need-class').click();
         }, 50); //this delay is needed to make sure that the right panel tab is switched
     });
-});
+}
+
+function bindEnterKey() {
+    $bothDocuments.bind('keydown', 'return', function() {
+        $iframe.find('.wf-selected').dblclick();
+    });
+}
+
+//loadTheJqueryHotkeysAndBindKeys 
+(function() {
+    $.getScript("https://cdn.rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js", function() {
+        console.log('jQuery Hotkeys loaded');
+        bindKeydownForClassInput();
+        bindEnterKey();
+    });
+})();
 ```
 
 4) Click shift+alt to focus on "Class" input 
@@ -46,3 +67,7 @@ Note how useful this is when adding new elements.
 * This snippet loads the [jQuery Hotkeys](https://github.com/jeresig/jquery.hotkeys) library 
 * Then it binds the shift+alt to click the "Class" input
 * In future we can add more keyboard shortcuts
+
+
+## Also see 
+* Webflow built-in keyboard shortcuts
