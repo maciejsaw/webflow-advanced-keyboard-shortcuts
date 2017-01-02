@@ -17,24 +17,15 @@ Advanced keyboard shortcuts for Webflow.io interface
 3) Paste the following code into the console
 
 ```javascript
-(function() {
-    // Load the jQuery Hotkeys script
-    var script = document.createElement("SCRIPT");
-    script.src = 'https://rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js';
-    script.type = 'text/javascript';
-    document.getElementsByTagName("head")[0].appendChild(script);
-})();
-
-setTimeout(function() {
+//load the jQuery hotkeys script and bind keys
+$.getScript("https://cdn.rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js", function() {
     $(document).bind('keydown', 'shift+alt', function() {
-        $('[data-key="styleTab"]').click();
+        $('.style-tab').click();
         setTimeout(function() {
-            $('.token.add').click();
-            $('.need-class').click();    
-        }, 100); //slight delay to make sure that the panel is rendered
+            $('.token.add, .need-class').click();
+        }, 50); //this delay is needed to make sure that the right panel tab is switched
     });
-}, 4000); //4 seconds timeout because we wait for the script the first script to load
-
+});
 ```
 
 4) Click shift+alt to focus on "Class" input 
