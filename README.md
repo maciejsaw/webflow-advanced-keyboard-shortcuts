@@ -1,11 +1,9 @@
 # Webflow Advanced Keyboard Shortcuts
-Advanced keyboard shortcuts for Webflow.io interface
-
-![webflow-logo](http://uploads.webflow.com/55e93f06d996a5894512d00d/55dd1a448f79b836280d697f_png.png)
+Additional keyboard shortcuts for webflow.com designer interface.
 
 ## Available shortcuts
-* Shift + Alt --> It will focus "Class" input in top right
-* Text editing with "Enter" key and "Esc" --> When a text element is selected, it will enter text editing mode. Use "Esc" to leave  
+* [Shift]+[Alt] --> Focus class selector in styles panel
+* [Enter] --> When a text element is selected, pressing [Enter] will switch to text editing mode. Use [Esc] to leave.
 
 ## How to setup?
 
@@ -13,7 +11,7 @@ Advanced keyboard shortcuts for Webflow.io interface
 
 1) Open your browser developer tools (Google Chrome: F12)
 
-2) Go to the console tab
+2) Go to the console tab or press [Esc]
 
 3) Paste the following code into the console
 
@@ -61,14 +59,14 @@ Note: You need to run this script each time you reload the page Webflow designer
 
 ## How to use shortcuts?
 
-Simply click [Shift] + [Alt] to focus the class selector. 
+Simply click [Shift]+[Alt] to focus the class selector. 
 This is useful when adding classes to newly-placed elements.
 
 ![gif2](https://raw.githubusercontent.com/maciejsaw/webflow-advanced-keyboard-shortcuts/master/keyboard%20webflow2.gif)
 
 
 ## Additional info
-* This snippet loads the [jQuery Hotkeys](https://github.com/jeresig/jquery.hotkeys) library, then it binds [Shift] + [Alt] to click the class selector
+* This snippet loads the [jQuery Hotkeys](https://github.com/jeresig/jquery.hotkeys) library, then it binds [Shift]+[Alt] to click the class selector
 * More keyboard shortcuts will be added in the future, so check back for updates!
 
 
