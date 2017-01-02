@@ -30,7 +30,7 @@ var AKS = {
     
     bindEnterKey: function() {
         this.bothDocuments.bind('keydown', 'return', function() {
-            this.iframe.find('.wf-selected').dblclick();
+            AKS.iframe.find('.wf-selected').dblclick();
         });
     },
     
