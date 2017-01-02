@@ -30,7 +30,7 @@ $.getScript("https://cdn.rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys
 
 4) Click shift+alt to focus on "Class" input 
 
-5) You need to do this each time you reload the page Webflow designer interface, but you don't need to remember the code. You can simply hit the arrow up to reuse the last command. 
+5) You need to run this script each time you reload the page Webflow designer interface, but you don't need to remember the code. You can simply hit the arrow up to reuse the last command. 
 
 6) TIP: You can also save this as a snippet in Chrome "Sources". Right click in the Snippets tab and choose "New"
 
