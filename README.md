@@ -9,7 +9,7 @@ Additional keyboard shortcuts for webflow.com designer interface.
 
 ![gif](https://github.com/maciejsaw/webflow-advanced-keyboard-shortcuts/raw/master/keyboard%20webflow.gif)
 
-1) Open your browser developer tools (Google Chrome: F12)
+1) Open your browser developer tools
 
 2) Go to the console tab or press [Esc]
 
