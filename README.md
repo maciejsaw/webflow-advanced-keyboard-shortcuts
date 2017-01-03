@@ -1,5 +1,5 @@
 # Webflow Advanced Keyboard Shortcuts
-Advanced keyboard shortcuts for Webflow.io interface
+Additional keyboard shortcuts for Webflow.io interface
 
 ![webflow-logo](http://uploads.webflow.com/55e93f06d996a5894512d00d/55dd1a448f79b836280d697f_png.png)
 
