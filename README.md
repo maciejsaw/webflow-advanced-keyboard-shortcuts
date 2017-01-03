@@ -97,7 +97,7 @@ WebflowAdvancedKeyboardShortcuts.init();
 
 ```
 
-Note: You need to run this script each time you reload the page Webflow designer interface, but you don't need to remember the code. You can simply hit the arrow up to reuse the last command, or you can also save this as a snippet in Chrome "Sources" - right click in the Snippets tab and choose "New".
+Note: You need to run this script each time you reload the page Webflow designer interface, but you don't need to remember the code. You can simply hit the arrow up to reuse the last command, or you can also save this as a snippet in Chrome "Sources" tab - right click in the Snippets sub-tab and select "New".
 
 4) Enjoy your advanced keyboard shortcuts
 
