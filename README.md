@@ -109,7 +109,7 @@ Note: You need to run this script each time you reload the page Webflow designer
 
 * Text editing with "Enter" key and "Esc" --> When a text element is selected, it will enter text editing mode. Use "Esc" to leave
 * Shift + F --> It will open font size increment window. Use [Up/Down] arrow keys to increase or decrease the font size, then use [Esc] when you're done
-* Shift + Arrow Up / Down / Left / Right --> Opens a window to nudge padding. For example, use [Shift]+[Down] and then use [Up/Down] keys to increment padding by 1px. Hit [Enter] or [Esc] when you're done.
+* Shift + Arrow Up / Down / Left / Right --> Opens a window to nudge respective padding: top, right, bottom or left. For example, use [Shift]+[Down] and then use [Up/Down] keys to increment padding-down by 1px. Hit [Enter] or [Esc] when you're done.
 
 ## Additional info
 * This snippet uses the [jQuery Hotkeys](https://github.com/jeresig/jquery.hotkeys) library 
