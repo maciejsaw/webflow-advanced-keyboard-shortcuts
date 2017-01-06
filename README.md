@@ -8,6 +8,7 @@ Additional keyboard shortcuts for Webflow.io interface
 * Enter --> Edit the text in the selected element
 * Shift + F --> Quick access to font size
 * Shift + Arrow Up / Down / Left / Right --> Quick access to padding increase/decrease
+* Shift + P --> Publish website
 
 ## How to setup?
 
@@ -76,12 +77,35 @@ var WebflowAdvancedKeyboardShortcuts = (function() {
         });
     }
 
+    function bindPublishButton() {
+        $bothDocuments.bind('keydown', 'shift+p', function() {
+            setTimeout(function() {
+                console.log($("#publish-targets"));
+                console.log($('#publish-targets').find('.primary.publish'));
+                $('#publish-targets').find('.primary.publish').trigger('click');
+            }, 200);
+        });
+    }
+
     function init() {
         $.getScript("https://cdn.rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js", function() {
             console.log('jQuery Hotkeys loaded');
             bindKeydownForClassInput();
             bindEnterKey();
             bindPadding();
+            bindFontSize();
+            bindPublishButton();
+        });
+    }
+
+    return {
+        version: version,
+        init: init,
+    }
+
+})();
+
+WebflowAdvancedKeyboardShortcuts.init();
             bindFontSize();
         });
     }
@@ -110,6 +134,7 @@ Note: You need to run this script each time you reload the page Webflow designer
 * Text editing with "Enter" key and "Esc" --> When a text element is selected, it will enter text editing mode. Use "Esc" to leave
 * Shift + F --> It will open font size increment window. Use [Up/Down] arrow keys to increase or decrease the font size, then use [Esc] when you're done
 * Shift + Arrow Up / Down / Left / Right --> Opens a window to nudge respective padding: top, right, bottom or left. For example, use [Shift]+[Down] and then use [Up/Down] keys to increment padding-down by 1px. Hit [Enter] or [Esc] when you're done.
+* Shift + P --> Publish website
 
 ## Additional info
 * This snippet uses the [jQuery Hotkeys](https://github.com/jeresig/jquery.hotkeys) library 
