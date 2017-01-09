@@ -113,6 +113,14 @@ Note: You need to run this script each time you reload the page Webflow designer
 
 4) Enjoy your advanced keyboard shortcuts
 
+## Bookmarklet
+
+You can also add a quick one click bookmark that will enable the advanced keyboard shortcuts. 
+1. Drag this link into your bookmarks bar: [Webflow Advanced Keyboard](javascript:void%20function(){var%20n=function(){function%20n(n){$(%22.style-tab%22).click(),setTimeout(function(){$(n).click()},50)}function%20t(n){$(%22.style-tab%22).click(),setTimeout(function(){$(n).focus()},50)}function%20i(){r.bind(%22keydown%22,%22shift+alt%22,function(){n(%22.token.add,%20.need-class%22)})}function%20e(){r.bind(%22keydown%22,%22return%22,function(){d.find(%22.wf-selected%22).dblclick()})}function%20o(){r.bind(%22keyup%22,%22shift+f%22,function(){t(%22.font-size.pull-left%20%20.kit-unit-box.kit-text-input%20.input%22)})}function%20u(){r.bind(%22keyup%22,%22shift+up%22,function(){n(%22.padding%20.label.top%22)}),r.bind(%22keyup%22,%22shift+down%22,function(){n(%22.padding%20.label.bottom%22)}),r.bind(%22keyup%22,%22shift+left%22,function(){n(%22.padding%20.label.left%22)}),r.bind(%22keyup%22,%22shift+right%22,function(){n(%22.padding%20.label.right%22)})}function%20c(){r.bind(%22keydown%22,%22shift+p%22,function(){setTimeout(function(){console.log($(%22%23publish-targets%22)),console.log($(%22%23publish-targets%22).find(%22.primary.publish%22)),$(%22%23publish-targets%22).find(%22.primary.publish%22).trigger(%22click%22)},200)})}function%20f(){$.getScript(%22https://cdn.rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js%22,function(){console.log(%22jQuery%20Hotkeys%20loaded%22),i(),e(),u(),o(),c()})}var%20s=%221.1%22,d=$(document).find(%22%23site-iframe%22).contents(),l=$(d[0]),r=$(document).add(l);return{version:s,init:f}}();n.init()}();)   
+2. Click it when inside Webflow designer
+3. If you don't use bookmarks bar, you can also just go to this bookark from the address bar
+
+
 ## How to use shortcuts?
 
 * Shift + Alt --> Simply click [Shift] + [Alt] to focus the class selector. This is useful when adding classes to newly-placed elements.
