@@ -138,4 +138,4 @@ For your convenience, you can also add a quick one click bookmark that will enab
 * More keyboard shortcuts will be added in the future, so check back for updates!
 
 ## Also see 
-* Webflow built-in keyboard shortcuts
+* [Webflow built-in keyboard shortcuts](https://help.webflow.com/article/does-the-webflow-designer-have-any-keyboard-shortcuts)
