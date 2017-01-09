@@ -106,18 +106,6 @@ var WebflowAdvancedKeyboardShortcuts = (function() {
 })();
 
 WebflowAdvancedKeyboardShortcuts.init();
-            bindFontSize();
-        });
-    }
-
-    return {
-        version: version,
-        init: init,
-    }
-
-})();
-
-WebflowAdvancedKeyboardShortcuts.init();
 
 ```
 
