@@ -114,13 +114,13 @@ Note: You need to run this script each time you reload the page Webflow designer
 4) Enjoy your advanced keyboard shortcuts
 
 ## Bookmarklet
-
 For your convenience, you can also add a quick one click bookmark that will enable the advanced keyboard shortcuts:
-1) Go to [Bookmarklets generator](http://bookmarklets.org/maker/)
-2) Paste the code that you can find above
-3) Drag the generated bookmarklet blue link in the bottom into your bookmarks bar
-4) Edit the bookmark name for something memorable, for example "Webflow Advanced Keyboard"
-5) Now when you are in Webflow, just click it to enable keyboard shortcuts
+
+1.Go to [Bookmarklets generator](http://bookmarklets.org/maker/)
+2.Paste the code that you can find above
+3.Drag the generated bookmarklet blue link in the bottom into your bookmarks bar
+4.Edit the bookmark name for something memorable, for example "Webflow Advanced Keyboard"
+5.Now when you are in Webflow, just click it to enable keyboard shortcuts
 
 ## How to use shortcuts?
 
