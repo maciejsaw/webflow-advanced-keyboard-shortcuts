@@ -46,7 +46,7 @@ var WebflowAdvancedKeyboardShortcuts = (function() {
 
     function bindKeydownForClassInput() {
         $bothDocuments.bind('keydown', 'shift+alt', function() {
-            clickInStyleTab('.token.add, .need-class');
+            clickInStyleTab('.css-selector .editable > div');
         });
     }
 
