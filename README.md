@@ -26,7 +26,7 @@ var WebflowAdvancedKeyboardShortcuts = (function() {
 
     //After clicking Esc on keyboard, the iframe is in focus so we need to bind the keys 
     //for both "documents": parent document and site iframe. 
-    var $iframe = $(document).find('#site-iframe').contents();
+    var $iframe = $(document).find('#site-iframe-next').contents();
     var $iframeDocument = $($iframe[0]); //this gets the document object of the iframe
     var $bothDocuments = $(document).add($iframeDocument);
 
@@ -121,6 +121,10 @@ For your convenience, you can also add a quick one click bookmark that will enab
 3. Drag the generated bookmarklet blue link in the bottom into your bookmarks bar
 4. Edit the bookmark name for something memorable, for example "Webflow Advanced Keyboard"
 5. Now when you are in Webflow, just click it to enable keyboard shortcuts
+
+## Tampermonkey / Greasemonkey
+If you don't want to init the shortcuts each time you refresh the Webflow Designer interface, you can use the [Tampermonkey script](https://github.com/maciejsaw/webflow-advanced-keyboard-shortcuts/blob/master/WebflowAdvancedKeyboardShortcuts.user.js) - it will init the keyboard shortcuts automatically after the Webflow page is loaded. 
+
 
 ## How to use shortcuts?
 
