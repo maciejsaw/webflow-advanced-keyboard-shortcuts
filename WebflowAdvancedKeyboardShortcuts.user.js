@@ -5,6 +5,7 @@
 // @description  Webflow Advanced Keyboard Shortcuts
 // @author       Maciej Sawicki
 // @match        https://webflow.com/design/*
+// @run-at       document-idle
 // ==/UserScript==
 
 var foundWebflowEditorIframe = false;
